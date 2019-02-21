@@ -108,8 +108,8 @@ type Transaction struct {
 		Currency string `json:"currency"`
 	} `json:"fee"`
 	Card struct {
-		Bank         string `json:"bank"`
-		Bin          string `json:"bin"`
+		Bank string `json:"bank"`
+		//Bin          string `json:"bin"`
 		Brand        string `json:"brand"`
 		Country      string `json:"country"`
 		Number       string `json:"number"`
